@@ -8,3 +8,109 @@ Requirements:
   1. Center an element
   2. Create columns in one section
 */
+body{
+  font-family:"Verdana", Geneva, sans-serif;
+  background-color: #C0C0C0;
+}
+h1 {
+  font-famiy: monospace;
+  font-size: 90px;
+  font-color: grey;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: lowercase;
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: flex-end;
+}
+h2 {
+  font-size: 35px;
+  font-color: light grey;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 0;
+  padding:0;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: gray;
+  padding-left: 50px;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  margin:0;
+}
+.britta{
+  width: 250px;
+  height: 100%;
+  padding-left: 2px;
+}
+nav{
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #ADD8E6;
+  color: white;
+  padding: 12px;
+}
+.waffle {
+  width: 250px;
+  height: 100%;
+}
+.about {
+  display: flex;
+}
+.me {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  font-size: 30px;
+  justify-content: center;
+  text
+}
+.one {
+  display: flex;
+  align-content: flex-end;
+  padding-left: 30px;
+  padding-right: 30px
+
+}
+.two {
+  display: flex;
+  align-content: flex-start;
+  padding-top: 60px;
+  padding-right: 40px;
+}
+.three {
+  display: flex;
+  align-content: flex-end;
+  padding: 20px
+}
+.four {
+  display: flex;
+  align-content: flex-start;
+  padding-top: 30px
+}
+.five {
+  display: flex;
+  align-content: flex-end;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.six {
+  display: flex;
+  align-content: flex-start;
+  padding-top: 60px;
+  padding-right: 40px;
+}
+footer{
+  font-size: 10px;
+}
