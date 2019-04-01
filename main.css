@@ -42,7 +42,7 @@ h2 {
 }
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   margin:0;
 }
 .britta{
@@ -110,6 +110,11 @@ nav{
   align-content: flex-start;
   padding-top: 60px;
   padding-right: 40px;
+}
+.eight {
+    font-size: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 footer{
   font-size: 10px;
